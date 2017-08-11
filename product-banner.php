@@ -2,7 +2,7 @@
 
 /*
 *	Plugin Name: Product Banner
-*	Description: Plugin to create a Banner for your Product Categories LALALALLA
+*	Description: Plugin to create a Banner for your Product Categories My new update
 *	Version: 1.0.0
 *	Author: Maxlian Lay
 *	Author URI: Contact at maxlian.lay@gmail.com
