@@ -23,6 +23,10 @@ class Product_Banner extends WP_Widget {
 
   private function includes(){
   	require_once __DIR__ . '/class-loads.php';
+  	require_once  __DIR__ . '/BFIGitHubPluginUploader.php';
+		if ( is_admin() ) {
+		    new BFIGitHubPluginUpdater( __FILE__, 'maxlian-lay', "hello-world" );
+		}
   }
 
   /*
