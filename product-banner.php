@@ -3,7 +3,7 @@
 /*
 *	Plugin Name: Product Banner
 *	Description: Plugin to create a Banner for your Product Categories My new update
-*	Version: 1.0.0
+*	Version: 1.4.0
 *	Author: Maxlian Lay
 *	Author URI: Contact at maxlian.lay@gmail.com
 *	Tested up to: 4.8
@@ -16,7 +16,7 @@ class Product_Banner extends WP_Widget {
   function __construct() {
     parent::__construct( 'product_banner_', __('Product Banner', 'Maxlian Lay'),
       array(
-        'description' => __( 'Simple plugin to create a Banner for your Product Categories' )
+        'description' => __( 'Simple plugin to create a Banner for your Product Categories v1.4' )
       ));
     $this->includes();
   }
